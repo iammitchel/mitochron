@@ -6,6 +6,7 @@ export const mockDashboardData = [
     address: "Lagos, Nigeria",
     departmentAmount: 600,
     unitAmount: 700,
+    avatar: "https://randomuser.me/api/portraits/women/1.jpg",
   },
 ];
 

@@ -20,6 +20,7 @@ export const DashboardSidebar: React.FC<DashboardSidebarProps> = ({
       address: string;
       departmentAmount: number;
       unitAmount: number;
+      avatar: string;
     }[]
   >([]);
 
@@ -67,6 +68,7 @@ export const DashboardSidebar: React.FC<DashboardSidebarProps> = ({
               email={user.email}
               address={user.address}
               buttonText="Set up your account"
+              avatar={user.avatar}
             />
           ))}
           {dashboardData.map((user) => (
